@@ -1,0 +1,162 @@
+# Reading D:/IntelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:16:08 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# ** Error (suppressible): ../TestBench/tb.sv(4): (vlog-13071) Illegal parameter specification for non-parameterized class type BaseVerificationClass.
+# ** Error: (vlog-13069) ../TestBench/tb.sv(4): near "parameter": syntax error, unexpected parameter.
+# ** Error: ../TestBench/tb.sv(4): Error in class extension specification.
+# End time: 00:16:08 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: D:/IntelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sim.do line 6
+# D:/IntelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$path/$name.sv" "
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:16:35 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# -- Compiling package tb_sv_unit
+# ** Warning: baseclass.svh(24): (vlog-2240) Treating stand-alone use of function 'start' as an implicit VOID cast.
+# ** Warning: baseclass.svh(12): (vlog-2250) Function "start" has no return value assignment.
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 00:16:35 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:16:35 on Jan 03,2025
+# Loading sv_std.std
+# Loading work.tb_sv_unit
+# Loading work.tb
+# ** Error: (vsim-3047) ../TestBench/tb.sv(46): actual value for formal 'rpt' of 'start_data' must be assignable.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../TestBench/tb.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 9
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:18:20 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# -- Compiling package tb_sv_unit
+# ** Warning: baseclass.svh(24): (vlog-2240) Treating stand-alone use of function 'start' as an implicit VOID cast.
+# ** Warning: baseclass.svh(12): (vlog-2250) Function "start" has no return value assignment.
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 00:18:20 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:16:35 on Jan 03,2025
+# Loading sv_std.std
+# Loading work.tb_sv_unit
+# Loading work.tb
+# ** Error: (vsim-8465) ../TestBench/tb.sv(46): Actual argument expression for ref formal 'clk' of 'start_data' is not valid as a ref actual.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../TestBench/tb.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim.do PAUSED at line 9
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:19:36 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# -- Compiling package tb_sv_unit
+# ** Warning: baseclass.svh(24): (vlog-2240) Treating stand-alone use of function 'start' as an implicit VOID cast.
+# ** Warning: baseclass.svh(12): (vlog-2250) Function "start" has no return value assignment.
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 00:19:36 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:16:35 on Jan 03,2025
+# Loading sv_std.std
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Invalid window pattern: do
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../TestBench/tb.sv(49)
+#    Time: 740 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ../TestBench/tb.sv line 49
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:21:34 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# -- Compiling package tb_sv_unit
+# ** Warning: baseclass.svh(24): (vlog-2240) Treating stand-alone use of function 'start' as an implicit VOID cast.
+# ** Warning: baseclass.svh(12): (vlog-2250) Function "start" has no return value assignment.
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 00:21:34 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 00:21:40 on Jan 03,2025, Elapsed time: 0:05:05
+# Errors: 3, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:21:40 on Jan 03,2025
+# Loading sv_std.std
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Invalid window pattern: do
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../TestBench/tb.sv(49)
+#    Time: 740 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ../TestBench/tb.sv line 49
+do sim.do
+# tb
+# TestBench
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:25:02 on Jan 03,2025
+# vlog -reportprogress 300 ../TestBench/tb.sv 
+# -- Compiling package tb_sv_unit
+# ** Warning: baseclass.svh(24): (vlog-2240) Treating stand-alone use of function 'start' as an implicit VOID cast.
+# ** Warning: baseclass.svh(12): (vlog-2250) Function "start" has no return value assignment.
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 00:25:02 on Jan 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 00:25:05 on Jan 03,2025, Elapsed time: 0:03:25
+# Errors: 1, Warnings: 2
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:25:05 on Jan 03,2025
+# Loading sv_std.std
+# Loading work.tb_sv_unit
+# Loading work.tb
+# Invalid window pattern: do
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../TestBench/tb.sv(50)
+#    Time: 740 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at ../TestBench/tb.sv line 50
+# End time: 00:54:21 on Jan 03,2025, Elapsed time: 0:29:16
+# Errors: 1, Warnings: 0
